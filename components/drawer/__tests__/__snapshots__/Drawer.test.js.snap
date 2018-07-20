@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Drawer closable is false 1`] = `
-<div
-  class=""
->
+<div>
   <div
     class="ant-drawer ant-drawer-right ant-drawer-open"
   >
@@ -12,12 +10,13 @@ exports[`Drawer closable is false 1`] = `
     />
     <div
       class="ant-drawer-content-wrapper"
+      style="width: 256px;"
     >
       <div
         class="ant-drawer-content"
       >
         <div
-          style="overflow: auto; height: 100%; width: 256px;"
+          style="overflow: auto; height: 100%;"
         >
           <div
             class="ant-drawer-body"
@@ -32,9 +31,7 @@ exports[`Drawer closable is false 1`] = `
 `;
 
 exports[`Drawer destroyOnClose is true 1`] = `
-<div
-  class=""
->
+<div>
   <div
     class="ant-drawer ant-drawer-right"
   >
@@ -43,13 +40,28 @@ exports[`Drawer destroyOnClose is true 1`] = `
     />
     <div
       class="ant-drawer-content-wrapper"
+      style="transform: translateX(100%); width: 256px;"
     >
       <div
         class="ant-drawer-content"
       >
         <div
-          style="overflow: auto; height: 100%; width: 256px;"
-        />
+          style="overflow: auto; height: 100%; opacity: 0;"
+        >
+          <button
+            aria-label="Close"
+            class="ant-drawer-close"
+          >
+            <span
+              class="ant-drawer-close-x"
+            />
+          </button>
+          <div
+            class="ant-drawer-body"
+          >
+            Here is content of Drawer
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -57,9 +69,7 @@ exports[`Drawer destroyOnClose is true 1`] = `
 `;
 
 exports[`Drawer have a title 1`] = `
-<div
-  class=""
->
+<div>
   <div
     class="ant-drawer ant-drawer-right ant-drawer-open"
   >
@@ -68,12 +78,13 @@ exports[`Drawer have a title 1`] = `
     />
     <div
       class="ant-drawer-content-wrapper"
+      style="width: 256px;"
     >
       <div
         class="ant-drawer-content"
       >
         <div
-          style="overflow: auto; height: 100%; width: 256px;"
+          style="overflow: auto; height: 100%;"
         >
           <div
             class="ant-drawer-header"
@@ -105,9 +116,7 @@ exports[`Drawer have a title 1`] = `
 `;
 
 exports[`Drawer render correctly 1`] = `
-<div
-  class=""
->
+<div>
   <div
     class="ant-drawer ant-drawer-right ant-drawer-open"
   >
@@ -116,12 +125,13 @@ exports[`Drawer render correctly 1`] = `
     />
     <div
       class="ant-drawer-content-wrapper"
+      style="width: 400px;"
     >
       <div
         class="ant-drawer-content"
       >
         <div
-          style="overflow: auto; height: 100%; width: 400px;"
+          style="overflow: auto; height: 100%;"
         >
           <button
             aria-label="Close"
